@@ -18,4 +18,4 @@ COPY target/webapp.war .
 
 EXPOSE 8080
 
-CMD ["/opt/tomcat/bin/catalina.sh", "run"]
+ENTRYPOINT ["/opt/tomcat/bin/catalina.sh", "run"]
